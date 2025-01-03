@@ -1,0 +1,27 @@
+/* Main app container */
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+/* Content container */
+.content {
+  display: flex;
+  flex: 1;
+}
+
+/* Sidebar styling */
+.sidebar {
+  width: 250px;
+  background-color: #ffffff;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+}
+
+/* Product grid area takes remaining space */
+.product-grid {
+  flex: 1;
+  background-color: #ffffff;
+}
